@@ -1,0 +1,7 @@
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\Basic Math Operations\bin\Debug\Basic Math Operations.exe.config
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\Basic Math Operations\bin\Debug\Basic Math Operations.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\Basic Math Operations\bin\Debug\Basic Math Operations.pdb
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\Basic Math Operations\obj\Debug\Basic Math Operations.csprojAssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\Basic Math Operations\obj\Debug\Basic Math Operations.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\Basic Math Operations\obj\Debug\Basic Math Operations.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\Basic Math Operations\obj\Debug\Basic Math Operations.pdb
