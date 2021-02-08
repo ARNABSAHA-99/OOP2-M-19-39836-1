@@ -1,0 +1,7 @@
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-2(4)\bin\Debug\LabTask-2(4).exe.config
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-2(4)\bin\Debug\LabTask-2(4).exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-2(4)\bin\Debug\LabTask-2(4).pdb
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-2(4)\obj\Debug\LabTask-2(4).csprojAssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-2(4)\obj\Debug\LabTask-2(4).csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-2(4)\obj\Debug\LabTask-2(4).exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-2(4)\obj\Debug\LabTask-2(4).pdb
