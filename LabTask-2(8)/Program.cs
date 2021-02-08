@@ -10,42 +10,40 @@ namespace LabTask_2_8_
     {
         static void Main(string[] args)
         {
-            double physics = 95;
-            double chemistry = 70.8;
-            double biology = 82.2;
-            double math = 97;
-            double computer = 90;
-            double sum = 0.0;
+            double physics = 50;
+            double chemistry = 40;
+            double biology = 30;
+            double math = 90;
+            double computer = 60;
+            double mark = 0;
 
-            sum = physics + chemistry + biology + math + computer;
-            sum = (100 * sum) / 500;
+            mark = physics + chemistry + biology + math + computer;
+            mark = (100 * mark) / 500;
 
-            if (sum >= 90)
+            if (mark >= 90)
             {
                 Console.WriteLine("Grade: A+");
             }
-            else if (sum >= 85 && sum < 90)
+            else if (mark >= 85 && mark < 90)
             {
                 Console.WriteLine("Grade: A");
             }
-            else if (sum >= 80 && sum < 85)
+            else if (mark >= 80 && mark < 85)
             {
                 Console.WriteLine("Grade: B+");
             }
-            else if (sum >= 75 && sum < 80)
+            else if (mark >= 75 && mark < 80)
             {
                 Console.WriteLine("Grade: B");
             }
-            else if (sum >= 50 && sum < 75)
+            else if (mark >= 50 && mark < 75)
             {
                 Console.WriteLine("Grade: C+");
             }
-            else
+            else if (mark < 50)
             {
                 Console.WriteLine("Grade: F");
             }
-
-            Console.WriteLine("");
         }
     }
 }

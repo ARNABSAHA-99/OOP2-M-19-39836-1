@@ -31,7 +31,7 @@ namespace LabTask_3
             get { return z; }
         }
 
-        public Triangle(int x, int y,int z)
+        public Triangle(int x, int y,int z) //constructor with 3 parameter
         {
 
             Console.WriteLine("Constructor with 3 parameter");
@@ -40,19 +40,19 @@ namespace LabTask_3
             this.z = z;
         }
 
-        public void TestTriangle() //method
+        public void TestTriangle() //TestTriangle method
         {
-            if (x == y && y == z)
+            if (x == y && y == z) //condition
             {
                 Console.WriteLine("The triangle is equilateral");
             }
 
-            else if(x==y || y==z|| x==z)
+            else if(x==y || y==z|| x==z) //condition
             {
                 Console.WriteLine("The triangle is isosceles");
             }
 
-            else
+            else //condition
             {
                 Console.WriteLine("The triangle is scalene");
             }

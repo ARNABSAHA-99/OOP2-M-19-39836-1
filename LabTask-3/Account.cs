@@ -8,10 +8,11 @@ namespace LabTask_3
 {
     class Account
     {
-        string accName;
+        string accName; //Member fileds as by default private
         string accid;
         int balance;
 
+        //Properties
         public string AccName
         {
             set { accName = value; }
@@ -30,25 +31,26 @@ namespace LabTask_3
             get { return balance; }
         }
 
-        public Account (string accName, string accid, int balance)
+        public Account (string accName, string accid, int balance) //Constructor with 3 parameter
         {
+            Console.WriteLine("Constructor with 3 parameter...");
             this.accName = accName;
             this.accid = accid;
             this.balance = balance;
         }
-        public void Deposit(int amount)
+        public void Deposit(int amount) //Deposit method
         {
             balance = balance + amount;
             {
-                Console.WriteLine("Money Added in your Account");
+                Console.WriteLine("Money Added in your Account...\n Your current balance is: "+balance);
             }
         }
 
-        public void Withdraw(int amount)
+        public void Withdraw(int amount) //Withdraw method
         {
             balance = balance - amount;
             {
-                Console.WriteLine("Money Deduct from your Account");
+                Console.WriteLine("Money Deduct from your Account!!!!\n Your current balance is: " + balance);
             }
         }
     }

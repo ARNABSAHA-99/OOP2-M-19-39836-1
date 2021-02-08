@@ -8,10 +8,11 @@ namespace LabTask_3
 {
     class Course
     {
-        string courseName;
+        string courseName; //Member fileds as by default private
         string courseCode;
         int courseCredit;
 
+        //Properties
         public string CourseName
         {
             set { courseName = value; }
@@ -30,15 +31,16 @@ namespace LabTask_3
             get { return courseCredit; }
         }
 
-        public Course(string courseName,string courseCode,int courseCredit)
+        public Course(string courseName,string courseCode,int courseCredit) //Constructor with 3 parameter
         {
+            Console.WriteLine("Constructor with 3 parameter...");
             this.courseName = courseName;
             this.courseCode = courseCode;
             this.courseCredit = courseCredit;
         }
 
 
-        public void ShowCourseInfo()
+        public void ShowCourseInfo() //ShowCourseInfo method
         {
             Console.WriteLine("CourseName is: "+courseName);
             Console.WriteLine("CourseCode is: "+courseCode);
