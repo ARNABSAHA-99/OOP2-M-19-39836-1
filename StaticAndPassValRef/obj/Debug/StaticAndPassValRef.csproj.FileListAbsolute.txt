@@ -1,0 +1,7 @@
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\StaticAndPassValRef\bin\Debug\StaticAndPassValRef.exe.config
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\StaticAndPassValRef\bin\Debug\StaticAndPassValRef.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\StaticAndPassValRef\bin\Debug\StaticAndPassValRef.pdb
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\StaticAndPassValRef\obj\Debug\StaticAndPassValRef.csprojAssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\StaticAndPassValRef\obj\Debug\StaticAndPassValRef.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\StaticAndPassValRef\obj\Debug\StaticAndPassValRef.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\StaticAndPassValRef\obj\Debug\StaticAndPassValRef.pdb

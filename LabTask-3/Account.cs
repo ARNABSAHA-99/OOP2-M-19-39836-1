@@ -38,6 +38,13 @@ namespace LabTask_3
             this.accid = accid;
             this.balance = balance;
         }
+
+        public void ShowAccInfo()
+        {
+            Console.WriteLine("Account Name is: "+accName);
+            Console.WriteLine("Account Id is: "+accid);
+            Console.WriteLine("Account Balance is: "+balance);
+        }
         public void Deposit(int amount) //Deposit method
         {
             balance = balance + amount;

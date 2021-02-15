@@ -34,10 +34,17 @@ namespace LabTask_3
         public Triangle(int x, int y,int z) //constructor with 3 parameter
         {
 
-            Console.WriteLine("Constructor with 3 parameter");
+            Console.WriteLine("Constructor with 3 parameter...");
             this.x = x;
             this.y = y;
             this.z = z;
+        }
+
+        public void ShowTriangleInfo()
+        {
+            Console.WriteLine("Value of X is :"+x);
+            Console.WriteLine("Value of Y is :"+y);
+            Console.WriteLine("Value of Z is :"+z);
         }
 
         public void TestTriangle() //TestTriangle method
