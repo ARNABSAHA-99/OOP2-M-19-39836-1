@@ -55,7 +55,7 @@ namespace Lab_Task_4
                 {
                     if (array1[y] == array1[z])
                     {
-                        Console.WriteLine("Number {0} has a duplication.", array1[y]);
+                        Console.WriteLine("{0} is duplicate number.", array1[y]);
                         duplicate[z] = array1[y];
                     }
                 }
@@ -73,7 +73,7 @@ namespace Lab_Task_4
                         unique = 1;
                 }
                 if (unique == 0)
-                    Console.WriteLine("Number {0} is unique.", array1[p]);
+                    Console.WriteLine("{0} is unique number.", array1[p]);
             }
 
         }
