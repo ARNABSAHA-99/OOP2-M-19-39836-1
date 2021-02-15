@@ -11,7 +11,7 @@ namespace Lab_Task_4
         static void Main(string[] args)
         {
             //1
-            int[] array1 = { 1, 2, 3, 4, 5, 6, 7, 8 };
+            int[] array1 = { 1, 2, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 10, 11 };
 
             Console.Write("Reverse value array1: ");
             for (int i = array1.Length; i > 0; i--)
@@ -28,10 +28,11 @@ namespace Lab_Task_4
                 sum = sum + array1[i];
             }
             Console.WriteLine("Sum of the all array element: "+sum);
+            Console.WriteLine();
 
             //3
 
-            int[] array2 = new int[8];
+            int[] array2 = new int[14];
 
             Console.Write("Copy the array1 element into array2: ");
 
@@ -47,29 +48,33 @@ namespace Lab_Task_4
 
             //4
 
-            int[] array3 = { 1, 1, 2, 3, 4, 4, 5, 6, 6, 7,10,10,149,149 };
-            for (int z = 0; z < array3.Length; z++)
+            int[] duplicate = new int[14];
+            for (int y = 0; y < array1.Length; y++)
             {
-                for (int y = z + 1; y < array3.Length; y++)
+                for (int z = y + 1; z < array1.Length; z++)
                 {
-                    if (array3[z] == array3[y])
-                        Console.WriteLine("{0} has 2 duplication.", array3[z]);
+                    if (array1[y] == array1[z])
+                    {
+                        Console.WriteLine("Number {0} has a duplication.", array1[y]);
+                        duplicate[z] = array1[y];
+                    }
                 }
             }
             Console.WriteLine();
 
             //5
 
-            int[] array4 = { 1,2,3,4,5 };
-            for (int w = 0; w < array4.Length; w++)
+            for (int p = 0; p < array1.Length; p++)
             {
-                for (int q = w + 1; q < array4.Length; q++)
+                int unique = 0;
+                for (int q = 0; q < duplicate.Length; q++)
                 {
-                    if (array3[w] != array4[q])
-                        Console.WriteLine("{0} is unique number.", array4[w]);
+                    if (array1[p] == duplicate[q])
+                        unique = 1;
                 }
+                if (unique == 0)
+                    Console.WriteLine("Number {0} is unique.", array1[p]);
             }
-            Console.WriteLine();
 
         }
     }
