@@ -66,13 +66,13 @@ namespace Lab_Task_4
 
             for (int p = 0; p < array1.Length; p++)
             {
-                int unique = 0;
+                int flag = 0;
                 for (int q = 0; q < duplicate.Length; q++)
                 {
                     if (array1[p] == duplicate[q])
-                        unique = 1;
+                        flag = 1;
                 }
-                if (unique == 0)
+                if (flag == 0)
                     Console.WriteLine("{0} is unique number.", array1[p]);
             }
 
