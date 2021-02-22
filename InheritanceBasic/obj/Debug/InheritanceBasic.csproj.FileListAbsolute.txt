@@ -1,0 +1,7 @@
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\InheritanceBasic\bin\Debug\InheritanceBasic.exe.config
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\InheritanceBasic\bin\Debug\InheritanceBasic.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\InheritanceBasic\bin\Debug\InheritanceBasic.pdb
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\InheritanceBasic\obj\Debug\InheritanceBasic.csprojAssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\InheritanceBasic\obj\Debug\InheritanceBasic.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\InheritanceBasic\obj\Debug\InheritanceBasic.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\InheritanceBasic\obj\Debug\InheritanceBasic.pdb
