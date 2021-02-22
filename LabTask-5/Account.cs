@@ -52,7 +52,7 @@ namespace LabTask_5
         {
             balance = balance + amount;
             {
-                Console.WriteLine("Money Added in your Account...\n Your current balance is: " + balance);
+                Console.WriteLine("Money Added in your Account...\nYour current balance is: " + balance);
             }
         }
 
@@ -60,7 +60,7 @@ namespace LabTask_5
         {
             balance = balance - amount;
             {
-                Console.WriteLine("Money Deduct from your Account!!!!\n Your current balance is: " + balance);
+                Console.WriteLine("Money Deduct from your Account!!!!\nYour current balance is: " + balance);
             }
         }
 
@@ -71,6 +71,7 @@ namespace LabTask_5
             {
                 balance = balance - amount;
                 acc.balance = balance + amount;
+                Console.WriteLine("Money Transfer is succeessfull\nAfter transfer money current balance is: "+balance);
             }
             else
             {
