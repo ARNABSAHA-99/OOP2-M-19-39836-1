@@ -5,3 +5,7 @@ C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-5\obj\Debug\LabTask-5.cspro
 C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-5\obj\Debug\LabTask-5.csproj.CoreCompileInputs.cache
 C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-5\obj\Debug\LabTask-5.exe
 C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-5\obj\Debug\LabTask-5.pdb
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-5-old version\obj\Debug\LabTask-5.csprojAssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-5-old version\obj\Debug\LabTask-5.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-5-old version\obj\Debug\LabTask-5.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-5-old version\obj\Debug\LabTask-5.pdb

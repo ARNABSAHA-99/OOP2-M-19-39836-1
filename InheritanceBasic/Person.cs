@@ -43,6 +43,15 @@ namespace InheritanceBasic
             get { return bloodGrp; }
             set { bloodGrp = value; }
         }
+        public Person() {
+            Console.WriteLine("Person Default");
+        }
+       public  Person(string name, string id)
+        {
+            this.name = name;
+            this.id = id;
+            Console.WriteLine("Person 2 parameter");
+        }
         public void ShowInfo()
         {
             Console.WriteLine("Name: " + name);

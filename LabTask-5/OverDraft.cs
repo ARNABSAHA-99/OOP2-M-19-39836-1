@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LabTask_5
 {
-    class OverDraft:Account
+    class OverDraft : Account
     {
         private int limit;
 
@@ -31,9 +31,9 @@ namespace LabTask_5
         }
         new public void Withdraw(int amount)
         {
-            if (base.Balance>= amount)
+            if (base.Balance >= amount)
                 base.Withdraw(amount);
-               Console.WriteLine("********************");
+            Console.WriteLine("********************");
         }
         new public void Transfer(int amount, Account acc)
         {

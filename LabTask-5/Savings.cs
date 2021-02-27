@@ -8,7 +8,7 @@ namespace LabTask_5
 {
     class Savings : Account
     {
-        private int minBalance=430;
+        private int minBalance = 430;
 
         public int MinBalance
         {
@@ -16,13 +16,13 @@ namespace LabTask_5
             set { minBalance = value; }
         }
         public Savings() { Console.WriteLine("Default Constructor;"); }
-        public Savings(string accName, string accid, int balance): base(accName, accid, balance)
+        public Savings(string accName, string accid, int balance) : base(accName, accid, balance)
         {
             Console.WriteLine("3 parameter constructor;");
             this.AccName = accName;
             this.AccName = accid;
             this.Balance = balance;
-           
+
         }
         new public void Deposit(int amount)
         {
@@ -50,5 +50,5 @@ namespace LabTask_5
             Console.WriteLine("********************");
         }
     }
-        
+
 }

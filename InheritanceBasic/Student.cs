@@ -16,9 +16,13 @@ namespace InheritanceBasic
             get { return cgpa; }
             set { cgpa = value; }
         }
-        public Student() { }
+        public Student() :base("","")
+        {
+            Console.WriteLine("Student Default");
+        }
         public Student(string name, string id)
         {
+            Console.WriteLine("Student 2 parameter");
             this.Name = name;
             this.Id = id;
         }

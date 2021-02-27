@@ -10,7 +10,10 @@ namespace InheritanceBasic
     {
         static void Main(string[] args)
         {
-            Student s1 = new Student("ARNAB", "12212");
+            Student s2 = new Student();
+            Student s1 = new Student("ARNAB", "1234");
+          
+            /*Student s1 = new Student("ARNAB", "12212");
           
             s1.BloodGrp = "A+";
             s1.Dob = "20-11-1999";
@@ -22,7 +25,7 @@ namespace InheritanceBasic
 
             s1.ShowInfo();
             Console.WriteLine("*******************");
-            e1.ShowInfo();
+            e1.ShowInfo();*/
             
         }
     }

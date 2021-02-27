@@ -15,13 +15,16 @@ namespace InheritanceBasic
             get { return salary; }
             set { salary = value; }
         }
-        public Employee() { }
+        public Employee() { Console.WriteLine("Employee Default"); }
         public Employee(string name,string id,double salary)
+
         {
+            Console.WriteLine("Employee 3 parameter");
             this.Name = name;
             this.Id = id;
             this.salary = salary;
         }
+        
        new public void ShowInfo()
         {
             base.ShowInfo();

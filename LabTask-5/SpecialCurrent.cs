@@ -17,7 +17,7 @@ namespace LabTask_5
             set { openingBalance = value; }
         }
         public SpecialCurrent() { Console.WriteLine("Default Constructor;"); }
-        public SpecialCurrent(string accName, string accid, int balance):base(accName, accid, balance)
+        public SpecialCurrent(string accName, string accid, int balance) : base(accName, accid, balance)
         {
             Console.WriteLine("3 parameter constructor;");
             this.AccName = accName;
