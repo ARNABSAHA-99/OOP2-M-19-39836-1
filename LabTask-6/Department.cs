@@ -36,10 +36,9 @@ namespace LabTask_6
             foreach (Student s in stu)
             {
                 students[studentCount++] = s;
+                s.Dept = this;
             }
         }
-
-       
         public void PrintStudents()
         {
             for(int i=0; i<studentCount;i++)
@@ -60,8 +59,6 @@ namespace LabTask_6
             this.name = name;
             this.id = id;
             students = new Student[50];
-
-
         }
         public void ShowInfo()
         {

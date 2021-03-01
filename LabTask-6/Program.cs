@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LabTask_6
 {
-    class Program
+    class Program  //Association
     {
         static void Main(string[] args)
         {
@@ -18,16 +18,23 @@ namespace LabTask_6
             Department d2 = new Department("BBA", "FBA");
 
             s1.Dept = d1;
+            s2.Dept = d1;
+            s3.Dept = d2;
+
             d1.AddStudent(s1,s2,s3);
-            d1.AddStudent(s2);
-            s2.Dept = d2;
+            
 
             s1.ShowSudentDeatils();
-            s3.ShowSudentDeatils();
-            Console.WriteLine("*****************");
-            d1.Name = "Computer Science and Engineering";
-            d1.Id = "CSE";
             s2.ShowSudentDeatils();
+            s3.ShowSudentDeatils();
+
+            Console.WriteLine("**********************");
+
+
+            d1.Name = "CSSSSE";
+            d1.Id = "FST";
+            s1.ShowSudentDeatils();
+        
         }
     }
 }
