@@ -1,0 +1,7 @@
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-6\bin\Debug\LabTask-6.exe.config
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-6\bin\Debug\LabTask-6.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-6\bin\Debug\LabTask-6.pdb
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-6\obj\Debug\LabTask-6Association.csprojAssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-6\obj\Debug\LabTask-6Association.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-6\obj\Debug\LabTask-6.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\ALL CODE\LabTask-6\obj\Debug\LabTask-6.pdb
